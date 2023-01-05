@@ -1,0 +1,51 @@
+#
+# User Defined PropertySet Definition File for Revit IFC Export
+#
+# Format:
+#    PropertySet:	<Pset Name>	I[nstance]/T[ype]	<element list separated by ','>
+#	<Property Name 1>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	<Property Name 2>	<Data type>	<[opt] Revit parameter name, if different from IFC>
+#	...
+#
+# Data types supported: Area, Boolean, ClassificationReference, ColorTemperature, Count, Currency, 
+#	ElectricalCurrent, ElectricalEfficacy, ElectricalVoltage, Force, Frequency, Identifier, 
+#	Illuminance, Integer, Label, Length, LinearVelocity, Logical, LuminousFlux, LuminousIntensity, 
+#	NormalisedRatio, PlaneAngle, PositiveLength, PositivePlaneAngle, PositiveRatio, Power, 
+#	Pressure, Ratio, Real, Text, ThermalTransmittance, ThermodynamicTemperature, Volume, 
+#	VolumetricFlowRate
+#
+# IFC Classes supported: IfcActuatorType,IfcAirTerminalBoxType,IfcDoor,IfcAirTerminalType,IfcAirToAirHeatRecoveryType,IfcAlarmType,IfcAnnotation,IfcBeam,IfcBoilerType,IfcBuildingElementPart,IfcBuildingElementProxy,IfcBuildingStorey,IfcCableCarrierFittingType,IfcCableCarrierSegmentType,
+#	IfcCableSegmentType,IfcChillerType,IfcCoilType,IfcColumnType,IfcCompressorType,IfcCondenserType,IfcControllerType,IfcCooledBeamType,IfcCoolingTowerType,IfcCovering,IfcCurtainWall,IfcDamperType,IfcDistributionChamberElementType,IfcDistributionControlElement,IfcDistributionElement,
+#	IfcDistributionFlowElement,IfcDoorType,IfcDuctFittingType,IfcDuctSegmentType,IfcDuctSilencerType,IfcElectricApplianceType,IfcElectricFlowStorageDeviceType,IfcElectricGeneratorType,IfcElectricHeaterType,IfcElectricMotorType,IfcElectricTimeControlType,IfcElementAssembly,
+#	IfcEnergyConversionDevice,IfcEvaporativeCoolerType,IfcEvaporatorType,IfcFanType,IfcFastenerType,IfcFilterType,IfcFireSuppressionTerminalType,IfcFlowController,IfcFlowFitting,IfcFlowInstrumentType,IfcFlowMeterType,IfcFlow,MovingDevice,IfcFlowSegment,IfcFlowStorageDevice,IfcFlowTerminal,
+#	IfcFlowTreatmentDevice,IfcFooting,IfcFurnishingElement,IfcFurnitureType,IfcGasTerminalType,IfcHeatExchangerType,IfcHumidifierType,IfcJunctionBoxType,IfcLampType,IfcLightFixtureType,IfcMechanicalFastenerType,IfcMemberType,IfcMotorConnectionType,IfcOpeningElement,IfcOutletType,IfcPile,
+#	IfcPipeFittingType,IfcPipeSegmentType,IfcPlateType,IfcProtectiveDeviceType,IfcPumpType,IfcRailing,IfcRamp,IfcReinforcingBar,IfcReinforcingMesh,IfcRoof,IfcSanitaryTerminalType,IfcSensorType,IfcSite,IfcSlab,IfcSpace,IfcSpaceHeaterType,IfcStackTerminalType,IfcStair,IfcSwitchingDeviceType,
+#	IfcSystemFurnitureElementType,IfcTankType,IfcTransformerType,IfcTransportElementType,IfcTubeBundleType,IfcUnitaryEquipmentType,IfcValveType,IfcWall,IfcWasteTerminalType,IfcWindowType
+#
+
+PropertySet:	LoD	I	IfcSpace
+	LoD	Text
+
+PropertySet:	SECClasS	I	IfcSpace
+	ClassificacaoSecclassSLDescricao	Text
+	ClassificacaoSecclassSLNumero   	Text
+
+PropertySet:	SECCLasS	T	IfcActuatorType,IfcAirTerminalBoxType,IfcAirTerminalType,IfcAirToAirHeatRecoveryType,IfcAlarmType,IfcBeam,IfcBoilerType,IfcBuildingElementPart,IfcBuildingElementProxy,IfcCableCarrierFittingType,IfcCableCarrierSegmentType,IfcCableSegmentType,IfcChillerType,IfcCoilType,IfcColumn,IfcColumnType,IfcCompressorType,IfcCondenserType,IfcControllerType,IfcCooledBeamType,IfcCoolingTowerType,IfcCovering,IfcCurtainWall,IfcDistributionChamberElementType,IfcDistributionControlElement,IfcDistributionElement,IfcDistributionFlowElement,IfcDoor,IfcDoorType,IfcDuctFittingType,IfcDuctSegmentType,IfcDuctSilencerType,IfcElectricApplianceType,IfcElectricFlowStorageDeviceType,IfcElectricGeneratorType,IfcElectricHeaterType,IfcElectricMotorType,IfcElectricTimeControlType,IfcEnergyConversionDevice,IfcEvaporativeCoolerType,IfcEvaporatorType,IfcFanType,IfcFastenerType,IfcFilterType,IfcFireSuppressionTerminalType,IfcFlowController,IfcFlowFitting,IfcFlowInstrumentType,IfcFlowMeterType,IfcFlow,MovingDevice,IfcFlowSegment,IfcFlowStorageDevice,IfcFlowTerminal,IfcFlowTreatmentDevice,IfcFooting,IfcFurnishingElement,IfcFurniture,IfcFurnitureType,IfcGasTerminalType,IfcHeatExchangerType,IfcHumidifierType,IfcJunctionBoxType,IfcLampType,IfcLightFixtureType,IfcMechanicalFastenerType,IfcMemberType,IfcMotorConnectionType,IfcOpeningElement,IfcOutletType,IfcPipeFittingType,IfcPipeSegmentType,IfcPlateType,IfcProtectiveDeviceType,IfcPumpType,IfcRailing,IfcRamp,IfcReinforcingBar,IfcReinforcingMesh,IfcRoof,IfcSanitaryTerminalType,IfcSensorType,IfcSite,IfcSlab,IfcSpaceHeaterType,IfcStackTerminalType,IfcStair,IfcSwitchingDeviceType,IfcSystemFurnitureElementType,IfcTankType,IfcTransformerType,IfcTransportElementType,IfcTubeBundleType,IfcUnitaryEquipmentType,IfcValveType,IfcWall,IfcWasteTerminalType,IfcWindowType
+	ClassificacaoSecclassEFDescricao 	Text
+	ClassificacaoSecclassEFNumero    	Text
+	ClassificacaoSecclassPrDescricao 	Text
+	ClassificacaoSecclassPrNumero    	Text
+	ClassificacaoSecclassSsDescricao 	Text
+	ClassificacaoSecclassSsNumero    	Text
+	ClassificacaoUniformatPtDescricao	Text
+	ClassificacaoUniformatPtNumero   	Text
+
+PropertySet:	SECClasS	T	IfcSpace
+	ClassificacaoSecclassSLDescricao	Text
+	ClassificacaoSecclassSLNumero   	Text
+
+PropertySet:	SECClasS	I	IfcSpace
+	ClassificacaoSecclassCoDescricao	Text
+	ClassificacaoSecclassCoNumero   	Text
+	ClassificacaoSecclassEnDescricao	Text
+	ClassificacaoSecclassEnNumero   	Text
