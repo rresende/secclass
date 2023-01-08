@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Takeoff xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://download.autodesk.com/us/navisworks/schemas/nw-TakeoffCatalog-10.0.xsd">
+	<Catalog>
+		<ItemGroup Name="Subestrutura" WBS="A" CatalogId="5e6de381-88f3-4e7f-96d8-52aedbaa843c">
+			<ItemGroup Name="Fundações" WBS="10" CatalogId="99f037ff-f2fc-407d-b55d-8c350d3bc5b3">
+				<ItemGroup Name="Fundações Correntes" WBS="10" CatalogId="6a034161-3c67-4603-9924-7a0ff61f2cad" />
+				<ItemGroup Name="Fundações Especiais" WBS="20" CatalogId="30c5ef34-7e47-40b5-867d-de1f897b9c5d" />
+			</ItemGroup>
+			<ItemGroup Name="Construção em Cave" WBS="20" CatalogId="b51e37d5-0e92-4148-9293-f7c180f9e9a3">
+				<ItemGroup Name="Paredes em Cave" WBS="20" CatalogId="877af5c8-9e49-4f06-8af6-2936ccf45148" />
+			</ItemGroup>
+			<ItemGroup Name="Lajes Sobre o Terreno" WBS="40" CatalogId="b678fefc-a822-4298-b444-907ab7a5e2f7">
+				<ItemGroup Name="Massame Sobre Terreno" WBS="10" CatalogId="c9004dfd-e7f6-4781-9d96-e7f0b8926408" />
+				<ItemGroup Name="Laje Estrutural Sobre Terreno" WBS="20" CatalogId="c27c64b1-9372-44c2-ae4b-5d4ee158c8e3" />
+				<ItemGroup Name="Valas Executadas na Laje" WBS="30" CatalogId="f7ecd47f-7ed0-4b17-8e07-5821977b1798" />
+				<ItemGroup Name="Negativos e Plintos na Laje" WBS="40" CatalogId="cec001e5-b018-4ffe-8075-9bdfd7a12d1a" />
+				<ItemGroup Name="Elementos Complementares de Laje Sobre Terreno" WBS="90" CatalogId="1899d796-2b26-4641-b46f-360ee87867b7" />
+			</ItemGroup>
+			<ItemGroup Name="Mitigação de Água e Gás" WBS="60" CatalogId="c694378f-8495-443f-bad4-aa791de230b7">
+				<ItemGroup Name="Drenagem Subterrânea da Construção" WBS="10" CatalogId="7b4cb894-b9f5-4778-aca1-6be4ecac8edd" />
+				<ItemGroup Name="Mitigação de Gases Tóxicos" WBS="20" CatalogId="b728d8ec-65d6-441b-b6ea-bac94a84fdc4" />
+			</ItemGroup>
+			<ItemGroup Name="Actividades Relacionadas Com Subestrutura" WBS="90" CatalogId="228a6f81-718b-4458-8d40-ae1775254f37">
+				<ItemGroup Name="Escavação Para Subestrutura" WBS="10" CatalogId="9e1cbe47-98db-471e-a3f7-3a42923119f0" />
+				<ItemGroup Name="Remoção de Água Durante a Construção" WBS="20" CatalogId="a0c33cf5-1547-46e7-be3e-1db6a506db6e" />
+				<ItemGroup Name="Apoios à Escavação" WBS="30" CatalogId="5eb519d8-f8a3-4fe6-9ef9-aec7e86938f6" />
+				<ItemGroup Name="Tratamento do Solo" WBS="40" CatalogId="27f67980-83ee-4783-be20-11df89863643" />
+			</ItemGroup>
+		</ItemGroup>
+		<ItemGroup Name="Esqueleto e Invólucro" WBS="B" CatalogId="01201d8b-3202-4685-b7e0-a15a481ec422">
+			<ItemGroup Name="Superestrutura" WBS="10" CatalogId="ebe67248-29f5-4af3-bf63-343f4cfc76bc">
+				<ItemGroup Name="Lajes de Pavimento" WBS="10" CatalogId="c98dfc85-b29e-4873-bc78-e08420bdde94" />
+				<ItemGroup Name="Lajes de Cobertura" WBS="20" CatalogId="7876744d-e9c5-45b7-be33-6114a12a18fe" />
+				<ItemGroup Name="Escadas" WBS="80" CatalogId="b0426c87-d8ec-4879-ac03-31574aca57ec" />
+			</ItemGroup>
+			<ItemGroup Name="Elementos Verticais do Invólucro Exterior" WBS="20" CatalogId="dd4715cb-a43c-4ae3-9ba1-f63b07ba22f5">
+				<ItemGroup Name="Paredes Exteriores" WBS="10" CatalogId="38157873-e399-43fe-a785-fef5ddef4aaf" />
+				<ItemGroup Name="Janelas Exteriores" WBS="20" CatalogId="7c52988b-07c5-4715-9227-8c4e58a826da" />
+				<ItemGroup Name="Portas e Grelhas Exteriores" WBS="50" CatalogId="77698fa0-a422-40bf-bfef-170b4560157b" />
+				<ItemGroup Name="Lâminas Exteriores de Ventilação" WBS="70" CatalogId="17f112ce-aa96-4dae-b784-08170e5805e8" />
+				<ItemGroup Name="Acessórios de Paredes Exteriores" WBS="80" CatalogId="beaad2bd-6362-4652-8a74-0cc09bb0a6aa" />
+				<ItemGroup Name="Especialidades em Paredes Exteriores" WBS="90" CatalogId="2facf00b-c0d2-4be0-8443-697d7763f52f" />
+			</ItemGroup>
+			<ItemGroup Name="Elementos Horizontais do Invólucro Exterior" WBS="30" CatalogId="b38c8bce-bb21-494a-8909-70c24b32d3c2">
+				<ItemGroup Name="Coberturas" WBS="10" CatalogId="6e5908ef-7183-4130-aac6-a89ff26cf4ec" />
+				<ItemGroup Name="Acessórios de Coberturas" WBS="20" CatalogId="c8c5e5dc-3e71-414f-b9d9-214eb24577f7" />
+				<ItemGroup Name="Coberturas e Terraços Com Tráfego" WBS="40" CatalogId="f24feb4f-27ad-4c2c-a007-4d3147160f56" />
+				<ItemGroup Name="Vãos no Plano Horizontal" WBS="60" CatalogId="2bf39091-74e2-4528-bc3d-b1c92d871d8a" />
+				<ItemGroup Name="Elementos Exteriores do Fecho Elevado da Construção" WBS="80" CatalogId="89f6ad91-a2fe-47c8-99d4-0faacfd1aa67" />
+			</ItemGroup>
+		</ItemGroup>
+		<ItemGroup Name="Interiores" WBS="C" CatalogId="a7bbed01-60bf-4a16-9e19-79b3496fdcd1">
+			<ItemGroup Name="Construção Interior" WBS="10" CatalogId="4e2e0dcd-a2f2-46b9-8e49-6fe133b167ac">
+				<ItemGroup Name="Paredes Divisórias" WBS="10" CatalogId="4bbb2d49-3390-46c4-9791-97957f41f247" />
+				<ItemGroup Name="Janelas Interiores" WBS="20" CatalogId="36b473bc-c3c2-43a4-802e-c4532146e39b" />
+				<ItemGroup Name="Portas Interiores" WBS="30" CatalogId="ed83726c-6375-4e1a-99b9-884c68f04f93" />
+				<ItemGroup Name="Portões e Grelhas Interiores" WBS="40" CatalogId="a1625c70-deb9-48be-a085-6f5085197fee" />
+				<ItemGroup Name="Pavimentos Elevados" WBS="60" CatalogId="4608ec99-1363-481d-9119-521d58267431" />
+				<ItemGroup Name="Tectos Suspensos" WBS="70" CatalogId="64781fce-dbda-4189-9497-5fec4319fac8" />
+				<ItemGroup Name="Especialidades Interiores" WBS="90" CatalogId="a5cb5578-29ee-49aa-9962-e3895645d3cf" />
+			</ItemGroup>
+			<ItemGroup Name="Acabamentos Interiores" WBS="20" CatalogId="b7ed6a01-8353-4882-a7e3-12153f50a8b9">
+				<ItemGroup Name="Acabamentos em Paredes" WBS="10" CatalogId="8154a872-d2c6-43f6-be9e-e03094c7af87" />
+				<ItemGroup Name="Conjuntos e Assemblagens Interiores" WBS="20" CatalogId="1eeccdac-2c4a-4c28-a1ca-6c915070db8d" />
+				<ItemGroup Name="Mapa de Acabamentos Interiores" WBS="90" CatalogId="5e0a691e-9f65-4fc1-98af-d6541267771d" />
+				<ItemGroup Name="Revestimento de Tectos" WBS="50" CatalogId="d53dac6a-ce3e-481b-bce2-c7e0885efc8d" />
+				<ItemGroup Name="Revestimento de Escadas" WBS="40" CatalogId="dc8ca953-d0ce-4c77-82bc-a28f95b33f62" />
+				<ItemGroup Name="Revestimento de Pavimentos" WBS="30" CatalogId="0086fcbd-0c00-4f8e-90d5-0ff2eb7ff944" />
+			</ItemGroup>
+		</ItemGroup>
+		<ItemGroup Name="Instalações" WBS="D" CatalogId="e05b2fef-b56e-432c-9df6-e8ab9447f596">
+			<ItemGroup Name="Sistemas Mecânicos de Transporte " WBS="10" CatalogId="be6362e9-0ff6-42b8-a82f-617677c56f75">
+				<ItemGroup Name="Sistemas de Transporte Vertical" WBS="10" CatalogId="ed301896-f9eb-4cf2-a00b-f91c63fada8c" />
+				<ItemGroup Name="Sistemas de Transporte Horizontal" WBS="30" CatalogId="4174ec59-baf6-46b0-89ed-69cc40a13990" />
+				<ItemGroup Name="Outros sistemas de Transporte de Material" WBS="50" CatalogId="5112006f-5e85-4174-a7bd-8891bc3b05a7" />
+				<ItemGroup Name="Sistemas de Acesso Operáveis" WBS="80" CatalogId="cc8b76c1-eabf-4c94-9ad7-c57d32c73218" />
+			</ItemGroup>
+			<ItemGroup Name="Hidráulica" WBS="20" CatalogId="dc6a9bf6-c615-4eae-8122-8face2744cfe">
+				<ItemGroup Name="Rede de Distribuição de Água em Edifícios" WBS="10" CatalogId="6a2859b8-38a4-43f2-b312-cd1ea4983164" />
+				<ItemGroup Name="Rede de Águas Residuais em Edifícios" WBS="20" CatalogId="7bd38b57-c3cf-444e-9efe-f2ec869908d7" />
+				<ItemGroup Name="Sistemas de Drenagem de Suporte em Edifícios" WBS="30" CatalogId="0405abfd-8a88-4a93-b204-e2b2234c9bb2" />
+				<ItemGroup Name="Sistemas Gerais de Ar Comprimido" WBS="50" CatalogId="4d0e5cc6-a337-4cf9-9b1b-88a0dd605a99" />
+				<ItemGroup Name="Sistemas de Tubagem de Suporte a Infraestruturas" WBS="60" CatalogId="7eb78c45-d01e-4a65-b7a8-c8e9cea74854" />
+			</ItemGroup>
+			<ItemGroup Name="Aquecimento, Ventilação e Ar Condicionado (AVAC)" WBS="30" CatalogId="ef9da755-a11f-4377-a12a-c80bb8cb58e0">
+				<ItemGroup Name="Sistemas de Combustível em Edifícios" WBS="10" CatalogId="26f03f13-877e-46bf-ad6e-eca49b63d5c9" />
+				<ItemGroup Name="Sistemas de Aquecimento" WBS="20" CatalogId="79613c14-59f0-4622-aaf5-e8c48f89a194" />
+				<ItemGroup Name="Sistemas de Arrefecimento" WBS="30" CatalogId="c1f21515-8906-45ff-97e1-83042e181212" />
+				<ItemGroup Name="Sistemas de Distribuição de AVAC" WBS="50" CatalogId="1202de64-265d-4dbb-8c5b-2532796bd00b" />
+				<ItemGroup Name="Ventilação" WBS="60" CatalogId="161ec5b7-7207-4694-add1-75b4a290dab0" />
+				<ItemGroup Name="Sistemas Especiais de AVAC" WBS="70" CatalogId="4ac69dbd-b5ce-41d8-80f3-8cf3d673d598" />
+			</ItemGroup>
+			<ItemGroup Name="Protecção e Segurança Contra Incêndios" WBS="40" CatalogId="2207f878-d2af-43fa-b157-19a5eca73529">
+				<ItemGroup Name="Sistemas de Supressão e Combate a Incêndios" WBS="10" CatalogId="20ddeb75-a6fc-49c7-b507-426b646549f1" />
+				<ItemGroup Name="Especialidades de Protecção Contra Incêndio" WBS="30" CatalogId="2bb1f7c5-5df8-42a1-bafa-964bd74f2ffc" />
+			</ItemGroup>
+			<ItemGroup Name="Instalações Eléctricas" WBS="50" CatalogId="8579dbd1-f40e-4f2a-80a8-eb044abe2ec3">
+				<ItemGroup Name="Geração de Energia em Edifícios" WBS="10" CatalogId="f349d8bf-75a6-4d3c-963d-2392c01310da" />
+				<ItemGroup Name="Serviço e Distribuição Eléctrica" WBS="20" CatalogId="eccd9bda-d6b6-4841-96e3-a636e8a5c024" />
+				<ItemGroup Name="Potência Eléctrica de Uso Geral" WBS="30" CatalogId="0b51cb8a-832a-49f8-82a0-d4da97dcb154" />
+				<ItemGroup Name="Iluminação" WBS="40" CatalogId="0e0c6bc2-c9db-48ca-b281-7237d257ebd2" />
+				<ItemGroup Name="Sistemas Eléctricos Variados" WBS="80" CatalogId="ef7709a8-2d7c-4792-b9ba-2bdccec293a6" />
+			</ItemGroup>
+			<ItemGroup Name="Comunicações" WBS="60" CatalogId="7b8586fc-2f23-499a-8aba-3cf7bed69a95">
+				<ItemGroup Name="Comunicações de Dados" WBS="10" CatalogId="25c4fb49-1287-4747-872d-6509cc2f2736" />
+				<ItemGroup Name="Comunicações de Voz" WBS="20" CatalogId="f34b9d5c-1a49-4025-8ca6-55ccbf3bf52e" />
+				<ItemGroup Name="Comunicações de Video-Audio" WBS="30" CatalogId="ded53905-3426-49fa-a905-2a4d7ad6d1a6" />
+				<ItemGroup Name="Comunicações Distribuídas e Monitorização" WBS="60" CatalogId="eb92931f-8b56-4234-9df4-89266a13766f" />
+				<ItemGroup Name="Componentes Suplementares de Comunicações" WBS="90" CatalogId="05c3ca5d-2f21-4a86-b319-bc38939ca073" />
+			</ItemGroup>
+			<ItemGroup Name="Segurança Electrónica e Contra Intrusão" WBS="70" CatalogId="3038d49b-09c0-4a74-a138-4089173146b0">
+				<ItemGroup Name="Controlo de Acessos e Detecção de Intrusão" WBS="10" CatalogId="9e2a7d97-1153-4288-92bb-5dfe6bb971f7" />
+				<ItemGroup Name="Vigilância Electrónica" WBS="30" CatalogId="cc8a4b7a-e17c-4874-875e-fc28386689ad" />
+				<ItemGroup Name="Componentes Suplementares de Segurança Electrónica e Contra Intrusão" WBS="90" CatalogId="038d7203-3d9e-4a7d-9537-8f47b2b7541c" />
+				<ItemGroup Name="Monitorização e Controlo Electrónico" WBS="70" CatalogId="8634b9dc-8e82-4914-8543-f58e52e5b60a" />
+				<ItemGroup Name="Detecção e Alarme" WBS="50" CatalogId="595ada2e-5d5d-4544-b3f5-6993366a4755" />
+			</ItemGroup>
+			<ItemGroup Name="Automação Integrada" WBS="80" CatalogId="0d716b93-3e05-4a82-b97b-e932b3c43619">
+				<ItemGroup Name="Sistemas de Controlo de Automação Integrada" WBS="10" CatalogId="20846a10-6724-4a0e-8429-5ad4b5a60c63" />
+			</ItemGroup>
+		</ItemGroup>
+		<ItemGroup Name="Equipamento e Mobiliário" WBS="E" CatalogId="0a8793e6-a416-4559-84e3-346ab4f72d44">
+			<ItemGroup Name="Equipamento" WBS="10" CatalogId="abf90314-fa94-4411-899c-b9cafe16be24">
+				<ItemGroup Name="Equipamento em Infraestruturas de Apoio a Veículos e Peões" WBS="10" CatalogId="463a69fa-eba1-4b77-8aab-7c0b98f233ed" />
+				<ItemGroup Name="Equipamento em Edifícios Comerciais" WBS="30" CatalogId="b7db374c-c289-4313-8ef6-fd757d995890" />
+				<ItemGroup Name="Equipamento em Edifícios Institucionais" WBS="40" CatalogId="d17920e0-a7cf-40d2-bef7-81f818ad1eeb" />
+				<ItemGroup Name="Equipamentos em Edifícios Residenciais" WBS="60" CatalogId="1d0357ef-6e21-461d-8a0b-1b59b14f43ff" />
+				<ItemGroup Name="Equipamentos em Edifícios de Entretenimento e Recreativos" WBS="70" CatalogId="8b219719-79e2-455a-867b-ed6463a868b5" />
+				<ItemGroup Name="Outros Equipamentos" WBS="90" CatalogId="e1c1acdc-6777-400b-a71c-e8bd4541eebe" />
+			</ItemGroup>
+			<ItemGroup Name="Mobiliário" WBS="20" CatalogId="133f2ba3-3181-47ab-aed1-09bd563193b1">
+				<ItemGroup Name="Mobiliário Fixo" WBS="10" CatalogId="d10c5c84-629e-42c9-a591-6adb0b3c7a37" />
+				<ItemGroup Name="Mobiliário Solto" WBS="50" CatalogId="e36625f8-c13a-4b86-9f9d-912c31369bc2" />
+			</ItemGroup>
+		</ItemGroup>
+		<ItemGroup Name="Construção Especial e Demolições" WBS="F" CatalogId="2c2c2102-eeb0-4fb3-bdd0-e5a4170fac3d">
+			<ItemGroup Name="Construção Especial" WBS="10" CatalogId="1c0be4e1-d3c4-4059-ad77-27204a7878ac">
+				<ItemGroup Name="Construção Integrada" WBS="10" CatalogId="f84b5dc1-2525-4311-a624-671224bcd0da" />
+				<ItemGroup Name="Estruturas Especiais" WBS="20" CatalogId="604ee26d-d6dc-4ea7-9791-f1d480cb1ff9" />
+				<ItemGroup Name="Construção Com Requisitos Funcionais Especiais" WBS="30" CatalogId="7dc5f51e-0723-4818-b54a-10732fbfde3b" />
+				<ItemGroup Name="Componentes de Instalações Especiais" WBS="50" CatalogId="6da0a511-a157-497e-b080-998d08f495b4" />
+				<ItemGroup Name="Construção Especial em Edifícios Recreativos e Desportivos" WBS="60" CatalogId="b3792445-5da0-44e5-82b0-ea8110a7656f" />
+				<ItemGroup Name="Instrumentação Especial" WBS="80" CatalogId="193f994c-5fb1-4b04-82be-10f57812a6cb" />
+			</ItemGroup>
+			<ItemGroup Name="Demolições" WBS="30" CatalogId="073509ef-c563-413a-8e65-31b35a5f2836">
+				<ItemGroup Name="Demolição Total de Instalações" WBS="10" CatalogId="d58b2f2f-66eb-4407-863a-19b2f4226872" />
+				<ItemGroup Name="Demolição Parcial de Instalações" WBS="30" CatalogId="ec89b0f8-f05d-4f63-98b4-4bdb1aefd752" />
+				<ItemGroup Name="Movimentação e Relocalização de Instalações" WBS="50" CatalogId="e69c9774-71b2-4ec1-b0bd-4ee3972a6f7d" />
+			</ItemGroup>
+			<ItemGroup Name="Remediação de Instalações" WBS="20" CatalogId="ab3beb22-966f-4e5c-949a-3da83edbae30">
+				<ItemGroup Name="Remediação de Materiais Perigosos" WBS="10" CatalogId="d0e511a8-33d5-4570-9a74-90426e93b6ac" />
+			</ItemGroup>
+		</ItemGroup>
+		<ItemGroup Name="Envolvente" WBS="G" CatalogId="b689b687-5839-4de6-ab48-8398d67d8690">
+			<ItemGroup Name="Preparação do Local da Obra" WBS="10" CatalogId="4615970a-35f3-4749-8e6b-5ff02b0305be">
+				<ItemGroup Name="Limpeza e Desmatamento do Local da Obra" WBS="10" CatalogId="12e4fe59-d9b2-466d-9adb-3567effeabb7" />
+				<ItemGroup Name="Demolição de Elementos no Local da Obra" WBS="20" CatalogId="b38b87cb-4fed-4072-9f94-5eb93236b781" />
+				<ItemGroup Name="Relocalização de Elementos no Local da Obra" WBS="30" CatalogId="b05c0b16-0123-48b7-b396-460842289371" />
+				<ItemGroup Name="Remediação no Local da Obra" WBS="50" CatalogId="adc34169-7900-4990-bf74-71b36f3223e7" />
+				<ItemGroup Name="Movimento de Terras no Local da Obra" WBS="70" CatalogId="03410872-e655-43db-b24e-88b13eb46cd4" />
+			</ItemGroup>
+			<ItemGroup Name="Melhorias na Envolvente" WBS="20" CatalogId="25219b41-7a8f-458b-b3aa-afc6296f7f5a">
+				<ItemGroup Name="Vias de Circulação " WBS="10" CatalogId="093266fa-a59d-4dc8-b403-56aa5a28d67b" />
+				<ItemGroup Name="Estacionamento" WBS="20" CatalogId="6d295d78-c33f-4bfa-9770-4c4083601bb6" />
+				<ItemGroup Name="Praças e Percursos Pedonais" WBS="30" CatalogId="9364bfd1-d496-4bad-8aed-f3234c0ef024" />
+				<ItemGroup Name="Aeródromos" WBS="40" CatalogId="f4b270b7-950c-4275-af98-65cdc979c8b3" />
+				<ItemGroup Name="Áreas Desportivas, de Jogo e de Lazer" WBS="50" CatalogId="a07f3bd4-fa18-44e5-b386-bdb8236938cd" />
+				<ItemGroup Name="Paisagismo" WBS="80" CatalogId="c90e32f5-ece3-415b-b887-b8d2e7239d04" />
+				<ItemGroup Name="Desenvolvimentos no Local da Obra" WBS="60" CatalogId="fd602d9e-7758-467c-95ef-1e63c4d49aa5" />
+			</ItemGroup>
+			<ItemGroup Name="Instalações Hidráulicas e de Gás" WBS="30" CatalogId="6a66012c-c599-4ff7-8f7f-6f1adc55d7f0">
+				<ItemGroup Name="Rede de Distribuição de Água" WBS="10" CatalogId="8fe53529-7392-48c3-aa3b-f5605c3b74b8" />
+				<ItemGroup Name="Rede de Águas Residuais" WBS="20" CatalogId="cf017a22-b67e-4a84-89fd-a2d04f979fee" />
+				<ItemGroup Name="Drenagem de Águas Pluviais" WBS="30" CatalogId="bc13a2e4-bbb0-49a1-8d6b-c6f2c112b430" />
+				<ItemGroup Name="Distribuição de Energia no Terreno" WBS="50" CatalogId="3fc445e4-aa0b-457d-980f-81aeae6c5d0e" />
+				<ItemGroup Name="Distribuição de Combustível no Terreno" WBS="60" CatalogId="7cba76e4-e1ca-4d17-b3de-07b240b8294d" />
+				<ItemGroup Name="Componentes Suplementares das Instalações Hidráulicas e de Gás" WBS="90" CatalogId="76f40865-1d1f-4e9f-88e2-05dad7a41235" />
+			</ItemGroup>
+			<ItemGroup Name="Melhorias Eléctricas na Envolvente" WBS="40" CatalogId="9bbd6fe9-afd2-46d2-ab2b-6387c13565fb">
+				<ItemGroup Name="Sistemas de Distribuição Eléctrica na Envolvente" WBS="10" CatalogId="519e64f4-1537-4ff7-8752-a07b82931371" />
+				<ItemGroup Name="Iluminação na Envolvente" WBS="50" CatalogId="596d0b86-fd23-4d4f-bffe-a6bcbe5279a5" />
+			</ItemGroup>
+			<ItemGroup Name="Comunicações na Envolvente" WBS="50" CatalogId="6abfa1ba-ced1-46ad-96b4-b591883b69b6">
+				<ItemGroup Name="Sistemas de Comunicações na Envolvente" WBS="10" CatalogId="88b989f3-0691-4ff9-b077-c70a74907dc5" />
+			</ItemGroup>
+			<ItemGroup Name="Construções Variadas In Loco" WBS="90" CatalogId="e03474ce-b5f7-4585-aaa1-b7a37a530eca">
+				<ItemGroup Name="Túneis" WBS="10" CatalogId="a3328dd5-376c-4289-a345-65907dca8cb6" />
+			</ItemGroup>
+		</ItemGroup>
+		<ItemGroup Name="Geral" WBS="Z" CatalogId="369ffd13-b9ef-4800-a92c-53778d11ceda">
+			<ItemGroup Name="Requisitos Gerais" WBS="10" CatalogId="4b786452-acaa-4fa5-90ca-4f90492215a6">
+				<ItemGroup Name="Preço e Procedimentos de Pagamento" WBS="10" CatalogId="6c74c97c-e51a-4827-adcb-d32fa18a3d5c" />
+				<ItemGroup Name="Requisitos de Execução e Fecho de Obra" WBS="70" CatalogId="5bea0ab7-91de-4076-a5fa-156570515e7a" />
+				<ItemGroup Name="Requisitos de Produtos" WBS="60" CatalogId="fe2cecf2-2020-4cba-a608-ce81fe5e4a05" />
+				<ItemGroup Name="Instalações Temporárias e Controlos" WBS="50" CatalogId="b68f694f-4354-44a5-9d9d-5d4230e0d293" />
+				<ItemGroup Name="Requisitos de Qualidade" WBS="40" CatalogId="de934d45-55ad-47bf-a91c-48332f75b907" />
+				<ItemGroup Name="Requisitos Administrativos" WBS="20" CatalogId="8bf1940b-0c0b-4098-aa56-28b8fc58b19a" />
+				<ItemGroup Name="Actividades do Ciclo de Vida do Imóvel" WBS="90" CatalogId="5e436fe0-72e3-4c2a-8cdf-a73b2effdcb1" />
+			</ItemGroup>
+			<ItemGroup Name="Taxas, Licenças, Seguros e Garantias" WBS="70" CatalogId="5c7a6096-7d69-44eb-9979-35b2dc12111d">
+				<ItemGroup Name="Taxas" WBS="10" CatalogId="88158d9b-39ac-4621-87bd-3109f9db1df5" />
+				<ItemGroup Name="Custos de Licenciamento" WBS="30" CatalogId="a70d3e66-f2a4-46f0-8d98-9df6dcd970d5" />
+				<ItemGroup Name="Custos de Alvará" WBS="50" CatalogId="90970c14-cfb3-4ed2-ab81-0bc1092b4496" />
+				<ItemGroup Name="Garantias Bancárias" WBS="70" CatalogId="c7fd28a8-b375-4de1-bba9-f07abc44022d" />
+			</ItemGroup>
+			<ItemGroup Name="Custos e Contigências" WBS="90" CatalogId="fbed7f42-192b-4e70-81cd-83badf55ae3a">
+				<ItemGroup Name="Custos Gerais" WBS="10" CatalogId="21a5671a-fd32-4cc4-a7af-835bdf6b8be2" />
+				<ItemGroup Name="Lucro" WBS="30" CatalogId="27f8e737-cf33-45d7-8af0-c7ee42a2de7f" />
+				<ItemGroup Name="Contingências Construtivas" WBS="50" CatalogId="d0785df0-d31a-4fd8-891d-801d1494a1c7" />
+				<ItemGroup Name="Custos de Financiamento" WBS="90" CatalogId="1499f8f5-6c73-4b26-be18-44100e94ddb2" />
+			</ItemGroup>
+		</ItemGroup>
+		<Resource Name="Resíduos" Description="Transporte p/a Vazadouro" RBS="1" CatalogId="51d0c832-006a-4663-a914-5f080a86aa3c">
+			<VariableCollection>
+				<Variable Name="Length" Formula="=ModelLength" Units="Meter" />
+				<Variable Name="Width" Formula="=ModelWidth" Units="Meter" />
+				<Variable Name="Thickness" Formula="=ModelThickness" Units="Meter" />
+				<Variable Name="Height" Formula="=ModelHeight" Units="Meter" />
+				<Variable Name="Perimeter" Formula="=ModelPerimeter" Units="Meter" />
+				<Variable Name="Area" Formula="=ModelArea" Units="SquareMeter" />
+				<Variable Name="Volume" Formula="=ModelVolume" Units="CubicMeter" />
+				<Variable Name="Weight" Formula="=ModelWeight" Units="Kilogram" />
+				<Variable Name="Count" Formula="=1" />
+				<Variable Name="PrimaryQuantity" Formula="=ModelVolume" Units="CubicMeter" />
+			</VariableCollection>
+		</Resource>
+	</Catalog>
+	<ConfigFile>
+		<Workbook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-TakeoffConfiguration-10.0.xsd" xmlns="">
+			<GlobalConfiguration>
+				<ConfigureFileType>ItemResources</ConfigureFileType>
+				<UnitsSystem>Metric</UnitsSystem>
+				<Currency>
+					<Name></Name>
+					<Code></Code>
+					<Symbol></Symbol>
+				</Currency>
+				<Column Name="Object">
+					<Type>String</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="any"></Units>
+				</Column>
+				<Column Name="Description1">
+					<Type>String</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="any"></Units>
+				</Column>
+				<Column Name="Description2">
+					<Type>String</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="any"></Units>
+				</Column>
+				<Column Name="ModelLength">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelWidth">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelThickness">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelHeight">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelPerimeter">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="length">meter</Units>
+				</Column>
+				<Column Name="ModelArea">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="area">squaremeter</Units>
+				</Column>
+				<Column Name="ModelVolume">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="volume">cubicmeter</Units>
+				</Column>
+				<Column Name="ModelWeight">
+					<Type>Number</Type>
+					<Purpose>Input</Purpose>
+					<Formula varies="0"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="weight">kilogram</Units>
+				</Column>
+				<Column Name="Length">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelLength</Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Width">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelWidth</Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Thickness">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelThickness</Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Height">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelHeight</Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Perimeter">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelPerimeter</Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="length">meter</Units>
+				</Column>
+				<Column Name="Area">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelArea</Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="area">squaremeter</Units>
+				</Column>
+				<Column Name="Volume">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelVolume</Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="volume">cubicmeter</Units>
+				</Column>
+				<Column Name="Weight">
+					<Type>Number</Type>
+					<Purpose>Calculation</Purpose>
+					<Formula varies="1">=ModelWeight</Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="weight">kilogram</Units>
+				</Column>
+				<Column Name="Count">
+					<Type>Number</Type>
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="0" group="any">count</Units>
+				</Column>
+				<Column Name="PrimaryQuantity">
+					<Type>Number</Type>
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Value varies="1"></Value>
+					<Units varies="1" group="any"></Units>
+				</Column>
+			</GlobalConfiguration>
+			<Table Name="ObjectResource">
+				<ColumnRef Name="Object" />
+				<ColumnRef Name="Description1" />
+				<ColumnRef Name="Description2" />
+				<ColumnRef Name="ModelLength" />
+				<ColumnRef Name="ModelWidth" />
+				<ColumnRef Name="ModelThickness" />
+				<ColumnRef Name="ModelHeight" />
+				<ColumnRef Name="ModelPerimeter" />
+				<ColumnRef Name="ModelArea" />
+				<ColumnRef Name="ModelVolume" />
+				<ColumnRef Name="ModelWeight" />
+				<ColumnRef Name="Length">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="area"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="volume"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="weight"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Count">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="PrimaryQuantity">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+			</Table>
+			<Table Name="StepResource">
+				<ColumnRef Name="Length">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="area"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="volume"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Purpose>RollUp</Purpose>
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="weight"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Count" />
+				<ColumnRef Name="PrimaryQuantity" />
+			</Table>
+			<Table Name="ObjectStep">
+				<ColumnRef Name="Object" />
+				<ColumnRef Name="ModelLength" />
+				<ColumnRef Name="ModelWidth" />
+				<ColumnRef Name="ModelThickness" />
+				<ColumnRef Name="ModelHeight" />
+				<ColumnRef Name="ModelPerimeter" />
+				<ColumnRef Name="ModelArea" />
+				<ColumnRef Name="ModelVolume" />
+				<ColumnRef Name="ModelWeight" />
+				<ColumnRef Name="Length">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="area"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="volume"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="weight"></Units>
+				</ColumnRef>
+			</Table>
+			<Table Name="Step">
+				<ColumnRef Name="Length">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+			</Table>
+			<Table Name="Object">
+				<ColumnRef Name="Object" />
+				<ColumnRef Name="Description1" />
+				<ColumnRef Name="Description2" />
+				<ColumnRef Name="ModelLength" />
+				<ColumnRef Name="ModelWidth" />
+				<ColumnRef Name="ModelThickness" />
+				<ColumnRef Name="ModelHeight" />
+				<ColumnRef Name="ModelPerimeter" />
+				<ColumnRef Name="ModelArea" />
+				<ColumnRef Name="ModelVolume" />
+				<ColumnRef Name="ModelWeight" />
+				<ColumnRef Name="Length">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="length"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="area"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="volume"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Formula varies="1"></Formula>
+					<Units varies="1" group="weight"></Units>
+				</ColumnRef>
+				<ColumnRef Name="Count">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="PrimaryQuantity">
+					<Purpose>Calculation</Purpose>
+				</ColumnRef>
+			</Table>
+			<Table Name="Item">
+				<ColumnRef Name="Length">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Count">
+					<Formula varies="1">=1</Formula>
+				</ColumnRef>
+				<ColumnRef Name="PrimaryQuantity" />
+			</Table>
+			<Table Name="ItemGroup" />
+			<Table Name="Resource">
+				<ColumnRef Name="Length">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Width">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Thickness">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Height">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Perimeter">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Area">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Volume">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Weight">
+					<Purpose>RollUp</Purpose>
+				</ColumnRef>
+				<ColumnRef Name="Count">
+					<Formula varies="1">=1</Formula>
+				</ColumnRef>
+				<ColumnRef Name="PrimaryQuantity" />
+			</Table>
+			<Table Name="ResourceGroup" />
+		</Workbook>
+	</ConfigFile>
+</Takeoff>
