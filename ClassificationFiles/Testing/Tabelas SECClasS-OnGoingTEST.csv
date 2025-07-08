@@ -13252,7 +13252,7 @@ SL;SL_70_10_82;Painéis solares;;30/06/2025;Solar arrays
 SL;SL_70_10_91;Salas de turbinas;;30/06/2025;Turbine rooms
 SL;SL_70_20;Espaços de transmissão de electricidade;;30/06/2025;Electricity transmission spaces
 SL;SL_70_20_05;Compartimento de equipamento de transformação auxiliar;;30/06/2025;Auxiliary transformer equipment bay
-SL;SL_70_20_08;Sala de barramentos;;30/06/2025;Bus coupler bay
+SL;SL_70_20_08;Sala de barramentos MAS CPM MUDANÇAS;;30/06/2025;Bus coupler bay
 SL;SL_70_20_10;Baias de secção de barramento;;30/06/2025;Bus section bay
 SL;SL_70_20_11;Baias de terminação de cabos selados;;30/06/2025;Cable sealing end bay
 SL;SL_70_20_13;Condensadores;;30/06/2025;Capacitor banks
