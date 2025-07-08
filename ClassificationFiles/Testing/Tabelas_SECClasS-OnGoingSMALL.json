@@ -1,16 +1,8 @@
 [
   {
     "Tabela": "Ac",
-    "Codigo": "Ac_05",
-    "Titulo SECClasS": "Atividades de gestão de projeto",
-    "Comentários": NaN,
-    "Inserido ou Verificado": "07/02/2025",
-    "Titulo Uniclass": "Project management activities"
-  },
-  {
-    "Tabela": "Ac",
     "Codigo": "Ac_05_00",
-    "Titulo SECClasS": "Atividades da fase estratégica",
+    "Titulo SECClasS": "Atividades da fase estratégica MAS DE NOITE",
     "Comentários": NaN,
     "Inserido ou Verificado": "07/02/2025",
     "Titulo Uniclass": "Strategy stage activities"
