@@ -1,22 +1,23 @@
 **Versão 2.0 - Julho 2025**
-- O SECClasS foi harmonizado com a versão "Uniclass2015-Outubro_2024".
-- Foram adicionadas traduções dos novos termos incluídos no Uniclass entre 2022 e Outubro 2024 e foi feita uma revisão das tabelas. A tabela Pr-Produtos não foi ainda revista, parte dos novos termos são traduções por IA.
-- Foram adicionados termos específicos de Portugal e termos em falta, por solicitação de colegas portugueses. Estas adições estão marcadas na coluna Comentários na sheet SECClasS.
+- O SECClasS foi harmonizado com a versão "Uniclass2015" de Abril de 2025.
+- Foram adicionadas traduções dos novos termos incluídos no Uniclass entre 2022 e Abril 2025 e foi feita uma revisão das tabelas, com excepção da tabela Pr-Produtos, onde parte dos novos termos são traduções por IA.
+- Foram adicionados termos específicos para Portugal, por solicitação de colegas portugueses. Estas adições estão identificadas na ferramenta de pesquisa online.
 - Foi traduzida a tabela Ma-Materiais.
-- Tabelas (13 tabelas, 17328 termos) : 
-    Ac-Atividades (948 termos)
-    Co-Complexos (416 termos)
-    En-Entidades (595 termos)
-    SL-Espaços e Locais (1146 termos)
-    EF-Elementos e Funções (230 termos)
-    Ss-Sistemas (2705 termos)
-    Pr-Produtos (8360 termos)
-    Ma-Materiais (447 termos)
-    TE-Ferramentas e Equipamentos (882 termos)
-    PM-Gestão de Projeto (1098 termos)
-    FI-Formas de Informação (94 termos)
-    Ro-Agentes (275 termos)
-    Zz-CAD e Modelação (132 termos)
+
+Tabelas (13 tabelas, 17411 termos) : 
+Ac - Actividades - 948 termos
+Ro - Agentes - 287 termos
+Zz - CAD - 132 termos
+Co - Complexos - 417 termos
+EF - Elementos/ funções - 230 termos
+En - Entidades - 596 termos
+SL - Espaços/ locais - 1146 termos
+TE - Ferramentas e Equipamentos - 882 termos
+FI - Formas de Informação - 94 termos
+PM - Gestão de Projeto - 1105 termos
+Ma - Materiais - 447 termos
+Pr - Produtos - 8421 termos
+Ss - Sistemas - 2706 termos
 
 **Versão 1.0 - 2022**
 Publicação da primeira versão do SECClasS, contendo 12 tabelas:
